@@ -7,18 +7,49 @@ hr {
     border: 0.5px solid black;
 }
 
+h4,
+h5 {
+    margin: .5em 0;
+}
+
+.grid-item-2 ul {
+    padding: .25em 1em;
+    margin: .25em 1em;
+}
+
+.grid-item-2 .mainbar-experience ul li {
+    padding: .25em 0;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+p,
+h5,
+ul li {
+    font-weight: 300;
+}
+
 .sidebar-contact-info {
     list-style-type: none;
 }
 
+ul.sidebar-contact-info li {
+    padding: 0.45em 1.25em 0.45em 0.45em;
+}
+
 .resume {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 .resume-header {
     text-align: center;
-    background-color: aliceblue;
+    background-color: #363d40;
+    color: white;
 }
 
 .resume-header h1 {
@@ -26,11 +57,20 @@ hr {
 }
 
 .grid-item-1 {
-    background-color: teal;
+    background-color: #ececec;
+    text-align: end;
+}
+
+.grid-item-1 p, 
+.grid-item-1 h3,
+.grid-item-1 h4,
+.grid-item-1 li {
+    padding: 0 1.25em 0 1em;
 }
 
 .grid-item-2 {
-    background-color: salmon;
+    background-color: white;
+    padding: 1em;
 }
 
 .grid-container {
