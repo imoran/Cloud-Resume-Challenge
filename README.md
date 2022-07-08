@@ -15,8 +15,8 @@ Your HTML resume should be deployed online as an Amazon S3 static website (S3)
 - [x] **5. HTTPS** </br>
 The S3 website URL should use HTTPS for security (CloudFront)
 
-- [ ] **6. DNS** </br>
-Point a custom DNS domain name to the CloudFront distribution, so your resume can be accessed at something of your choosing (Amazon Route 53)
+- [x] **6. DNS** </br>
+Point a custom DNS domain name to the CloudFront distribution, so your resume can be accessed at a domain name of your choosing (Amazon Route 53 + CloudFront + AWS Certificate Manager)
 
 - [ ] **7. JavaScript** </br>
 Your resume webpage should include a visitor counter that displays how many people have accessed the site
