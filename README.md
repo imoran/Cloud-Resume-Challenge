@@ -46,4 +46,4 @@ Set up GitHub Actions such that when you push an update to your SAM or Python co
   Create a second GitHub repository for your website cod**e. Create GitHub Actions such that when you** push new website code, the S3 bucket gets automatically updated
 
 - [ ] **16. Blog Post** </br>
-In the text of your resume, you should link a short blog post describing some things you learned while working on this project
+In the text of your resume, you should link a short blog post describing some things you learned while working on this project. [Blog](https://isis-from-sf.hashnode.dev/)
