@@ -25,7 +25,7 @@ Your resume webpage should include a visitor counter that displays how many peop
 The visitor counter will need to retrieve and update its count in a database somewhere (DynamoDB)
 
 - [ ] **9. API** </br>
-Do not communicate directly with DynamoDB from your JavaScript cod**e. Instead, you will need to create an** API that accepts requests from your web app and communicates with the database (API Gateway + Lambda)
+Do not communicate directly with DynamoDB from your JavaScript code. Instead, you will need to create an API that accepts requests from your web app and communicates with the database (API Gateway + Lambda)
 
 - [ ] **10. Python** </br>
 You will need to write a bit of code in the Lambda function (boto3 library for AWS)
@@ -34,16 +34,16 @@ You will need to write a bit of code in the Lambda function (boto3 library for A
 You should also include some tests for your Python code
 
 - [ ] **12. Infrastructure as Code** </br>
-You should not be configuring your API resources - the DynamoDB table, the API Gateway, the Lambda function -- manually, by clicking around in the AWS consol**e. Instead, define them in an AWS Serverless Application Model** (SAM) template and deploy them using the AWS SAM CLI
+You should not be configuring your API resources - the DynamoDB table, the API Gateway, the Lambda function -- manually, by clicking around in the AWS console. Instead, define them in an AWS Serverless Application Model (SAM) template and deploy them using the AWS SAM CLI
 
 - [ ] **13. Source Control** </br>
-You do not want to be updating either your back-end API or your front-end website by making calls from your lapto**p. You want them to update automatically whenever you make a change to** the code
+You do not want to be updating either your back-end API or your front-end website by making calls from your lapto**p. You want them to update automatically whenever you make a change to the code
 
 - [ ] **14. CI/CD (Back-end)** </br>
-Set up GitHub Actions such that when you push an update to your SAM or Python code, your Python tests get ru****n. If the tests pass, the SAM application should get packaged and deployed to AWS
+Set up GitHub Actions such that when you push an update to your SAM or Python code, your Python tests get run. If the tests pass, the SAM application should get packaged and deployed to AWS
 
 - [ ] **15. CI/CD (Front-end)** </br>
-  Create a second GitHub repository for your website cod**e. Create GitHub Actions such that when you** push new website code, the S3 bucket gets automatically updated
+  Create a second GitHub repository for your website code. Create GitHub Actions such that when you push new website code, the S3 bucket gets automatically updated
 
 - [ ] **16. Blog Post** </br>
 In the text of your resume, you should link a short blog post describing some things you learned while working on this project. [Blog](https://isis-from-sf.hashnode.dev/)
