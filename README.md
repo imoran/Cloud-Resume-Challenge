@@ -18,7 +18,7 @@ The S3 website URL should use HTTPS for security (CloudFront)
 - [x] **6. DNS** </br>
 Point a custom DNS domain name to the CloudFront distribution, so your resume can be accessed at a domain name of your choosing (Amazon Route 53 + CloudFront + AWS Certificate Manager)
 
-- [ ] **7. JavaScript** </br>
+- [x] **7. JavaScript** </br>
 Your resume webpage should include a visitor counter that displays how many people have accessed the site
 
 - [ ] **8. Database** </br>
