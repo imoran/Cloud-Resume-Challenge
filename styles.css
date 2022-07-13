@@ -33,6 +33,10 @@ ul li {
     font-weight: 300;
 }
 
+.visitor-message {
+    margin-left: 4em;
+}
+
 .sidebar-contact-info {
     list-style-type: none;
 }
